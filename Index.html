@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chibe a Paris</title>
+    <link rel="icon" type="image/jpg"href="image/logo-round.jpg">
+    <link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Prompt&display=swap" rel="stylesheet"> 
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+</head>
+<body>
+
+<div class="header">
+	<div class="containter">
+		<div class="navbar">
+			<div class="logo"> 
+				<img src = "image/logo.jpg"
+				width="100px" 
+				alt = "My logo">
+			</div>
+			<nav>
+				<ul id="MenuItems">
+					<li><a href=""><b>Home</b></a></li>
+					<li><a href=""><b>Products</b></a></li>
+					<li><a href=""><b>About</b></a></li>
+					<li><a href=""><b>Contact</b></a></li>
+					<li><a href=""><b>Account</b></a></li>
+				</ul>
+			</nav>
+			<img src="image/cart.webp" 
+			width="35px" height="35px" alt="image cart">
+			<img src="image/menu-icon.png" class= "menu-icon" 
+			onclick= "menutoggle()"> 
+		</div>
+		<div class="row">
+			<div class="col-2">
+				<h2>Live Well <br>and<br> Healthy Everyday</h2>
+				<a href="" class="btn"><b>Let's Go</b></a>
+			</div>
+			<div class="col-2">
+				<img src="image/Daily-Tips-for-happy-life.jpg"
+				width="550px" height="400px">
+			</div>
+		</div>
+	</div>
+</div>
+<!--featured categories-->
+<div class="categories">
+	<div class="small-container">
+		<h2 class="title">CATEGORIES</h2>
+		<div class="row">
+			<div class="Beauty & Hygiene">
+				<div class="col-4">
+				<img src="image/icons8-supplement-bottle-50.png" alt="Categories Skin">
+				<a href="#"><h4>Supplement</h4></a>
+			</div>
+			</div>
+			<div class="Beauty & Hygiene">
+				<div class="col-4">
+				<img src="image/icons8-cosmetic-50.png" alt="Categories Skin">
+				<a href="#"><h4>Cosmetic</h4></a>
+			</div>
+			</div>
+			<div class="Beauty & Hygiene">
+				<div class="col-4">
+				<img src="image/icons8-female-meditation-50.png" alt="Categories Skin">
+				<a href="#"><h4>Meditation</h4></a>
+			</div>
+			</div>
+			<div class="Beauty & Hygiene">
+				<div class="col-4">
+				<img src="image/icons8-view-more-50.png" alt="Categories Skin">
+				<a href=""><h4>Other Products</h4></a>
+			</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="searching">
+	<div class="search-bar">
+		<input type="text" placeholder="Search in all categories...">
+	</div>
+</div>
+
+	<!--featured products-->	
+	<div class="small-container">
+		<h2 class="title">FEATURED PRODUCTS</h2>
+		<div class="row">
+			<div class="col-4">
+				<img src="image/biogai.jpeg" width="100rem" height="90rem" alt="Product 1">
+				<a href="#"><h4>BioGaia Protectis Probiotics, 5mL</h4>
+				<small>Reduces Colic, Promotes Digestive Comfort</small></a>
+				<div class="rating">
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+				</div>
+				<p>12$</p>
+			</div>
+			<div class="col-4">
+				<img src="image/Thuốc nhỏ mắt Goutte bleue.png" alt="Product 2">
+				<a href="#"><h4>Innoxa Gouttes Bleues, 10ml</h4>
+				<small>Clear eyes, hydration, protection, cleansing</small></a>
+				<div class="rating">
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star-o"></i>
+					<i class="fa fa-star-o"></i>
+				</div>
+				<p>16$</p>
+			</div>
+			<div class="col-4">
+				<img src="image/Gingko Arkopharma.jpg" alt="Product 3">
+				<a href="#"><h4>Arkogélules BIO Ginkgo</h4>
+				<small>Helps to improve memory and concentration</small></a>
+				<div class="rating">
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star-o"></i>
+				</div>
+				<p>15,66$</p>
+			</div>
+		</div>
+		<h2 class="title">LATEST PRODUCTS</h2>
+		<div class="row">
+		<div class="col-4">
+			<img src="image/PERLES DE PEAU Booster Collagene.jpeg" alt="Product 4">
+			<a href="#"><h4>Perles de Peau</h4>
+			<small>Moisturizing, helps your skin stay supple and preserves its elasticity</small></a>
+			<div class="rating">
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star-o"></i>
+			</div>
+			<p>25.89$</p>
+		</div>
+	</div>
+	</div>
+<!--footer-->
+<footer>
+<div class="footer">
+	<div class="container">
+		<div class="row">
+			<div class="footer-col-2">
+				<img src="image/logo.jpg"width="100px" 
+				alt = "My logo">
+		
+			</div> 
+			<div class="footer-col-1">
+				<h3> Useful Links </h3>
+				<ul>
+					<li>Coupons</li>
+					<li>Promotions</li>
+					<li>Return Policy</li>
+				</ul>
+			</div> 
+			<div class="footer-col-3">
+				<h3>Follow us </h3>
+				<ul>
+					<li>Instagram</li>
+					<li>Facebook</li>
+					<li>YouTube</li>
+				</ul>
+			</div> 
+		</div>
+		<hr>
+		<p class="copyright">Copyright 2022</p>
+	</div>
+</div>
+</footer>
+<script>
+	var MenuItems=document.getElementById("MenuItems");
+
+	MenuItems.style.maxHeight="0px";
+
+	function menutoggle(){
+		if(MenuItems.style.maxHeight == "0px")
+		{
+			MenuItems.style.maxHeight = "200px"
+		}
+		else
+		{
+			MenuItems.style.maxHeight="0px";
+		}
+	}
+</script>
+</body>
+</html>
+
+
